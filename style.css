@@ -1,0 +1,15 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.imagem{
+    font-size: 50px;
+   border: 10px solid black;
+}
